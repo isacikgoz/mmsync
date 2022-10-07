@@ -1,0 +1,20 @@
+{
+    "GitCommand": "git",
+    "Repositories": [
+        {
+            "Name": "mattermost-server",
+            "Path": "../mattermost-server",
+            "Remote": "origin"
+        },
+        {
+            "Name": "mattermost-webapp",
+            "Path": "../mattermost-webapp",
+            "Remote": "origin"
+        },
+        {
+            "Name": "enterprise",
+            "Path": "../enterprise",
+            "Remote": "origin"
+        }
+    ]
+}

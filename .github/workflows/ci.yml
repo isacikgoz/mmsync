@@ -27,4 +27,4 @@ jobs:
         path: ${{ env.GOPATH }}/src/github.com/${{ github.repository }}
     - name: Execute Driver Tests
       run: |
-        go build
+        go build ./cmd/mmsync
